@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ordinal-city-413307",
+  "private_key_id": "3a46198cb05b6946e0028d42f069a1cd57c43cbf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDUowlsJOKU32Zt\nPzZI8d2WVQgZb548MYnTwqt6KZZkWkFi1bW7XpZx9CUUJpkzx668OLF0+SZN3A3f\nljAb/ucrNdoHyg8HVuTnEUo+XG1XnUy7WQ/kU9lHprvR8MZ6+xb7JseiPjzLgnAJ\nN+cPzIvqGkLcF0PLnB7ucVlUc8uWKaYQTmKFp3D09uAseyJAGdPeEQ7MBHzCepGe\noVTAfCHDHlx1xMQf5Y6r/hX7/lXDUwQgxeYq7db+xILwOr9T4JRoiO3urtWG01pL\nzfm5LB8+yF7e5KWJNaBr1bew7A9nWqMmk3W5yrJMcIDDAxkwI5pg5OIpo6j8mY33\nN5ULr3C1AgMBAAECggEAOFEkBjnwruhKOwYCbSht/UpxFjeLS7r9G5JUE0tfcx26\ncqBSfRkstGqqxV8BtYad/2juiyIP5JAzNnQTMt78v+OH5wc7msCHaLGaHdEh/pIB\nSB9rB5izk/gTh6ODFgBZklQvjId6V5Yo8TAWqQcOSYcCDUO2J3+ma5WmyKjQk2jh\niam6zWNdpwfqdrtEl8jG7RefZCWSxE7hlSj0AxT1OlM+1PRM2JPOjtikmAJDhA73\nm4I0Bxs+pkudgXXUC3MjzCdr+10/YoSRXOVeoBSRrVtqXNq1kjGl7U8eXZlzzfsj\nxR6V02IE2iEtZa+BoIDk5XQLq3D97Y2VNbIjsNi4wwKBgQD7y7YyUiudQXkFuhRv\nNIIWANydT1hgYDq1HQEvYaV5y//lajyaFIzINu8IB07DJsA337ctKBZCqWAjByoJ\n6wERXhLwdxfk2mwIaH0DfdSiDzcawXoJRDb/K4nKyWurSO8tbRTYufw68L2RelXM\nX/4YY350zDHmqfGpsgc+JxJ2wwKBgQDYL/FBiVNqPgg/XMp77cITGTsw6dICRAFQ\nWWIgEz6hMQXNjOe+9L/jdzOnetWd1KIkM2ctY2XKKIILZkEg4QzFmsnCsmWDf/lT\neVYWMWIvdDxiXil7PcWd/CZSM8qsll8aqZj/3CssQ17f0IdCNWkaNo1TM3mC7NDt\nDIqaWoezJwKBgQDeG7oh9V3Hn8Nzi8sOtVCyvBvfH+ijSv8+V9F9zDK9l3epFOdU\nOyBcVCjR+jA98ObJ4qugR6YrM2E8RMuOaCBPA57NQyBunUWCvTjZZZu1QJqpHVXa\n6rNgrzUjDj3Nn85rUbd73cNi8o0l0LXyTBLFzK31tVGnWO11dTbyWmDtJQKBgFyL\nkXSjq+DEM1WkjE2nBziTyYHz5mHv6LwTt2zRsDLiwIAwvJhDP83JHoSokb+h4dMr\nahTFAzMaSilFGcZQcN46l/pP0iML6piwTYjslQKJeLwHYSyP0gQCiAkSgMWHDall\nRsjo4FZvdLLNGsneAWMmTTN7yp2gcQO5JbBT5tlrAoGBAMZVSPnbMAQCRubbhdAr\nOB6BDu5TIeImXObWuKNhRPS/nAyx1zFdZpM0fzkqPkSnW0LH+Q6Wxl2k2DgeRmew\nKy4B/aVj19DfSmi+cWTn0/W1fivUAEs2966kmNx0aN77Cu01iYFDc5Pp59Ugsxeg\n+7WNQVHeNGEmldSGngpVZEHv\n-----END PRIVATE KEY-----\n",
+  "client_email": "adik-405@ordinal-city-413307.iam.gserviceaccount.com",
+  "client_id": "112703480229274152068",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adik-405%40ordinal-city-413307.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
