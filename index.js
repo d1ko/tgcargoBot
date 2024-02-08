@@ -360,33 +360,33 @@ bot.on("photo", async (ctx) => {
 
 
 
-// bot.on('callback_query', async (ctx) => {
-//   const data = ctx.callbackQuery.data;
+bot.on('callback_query', async (ctx) => {
+  const data = ctx.callbackQuery.data;
 
-//   if (data === 'lol' || data === 'kek') {
-//     try {
-//       const chatId = ctx.callbackQuery?.message?.chat?.id;
+  if (data === 'lol' || data === 'kek') {
+    try {
+      const chatId = ctx.callbackQuery?.message?.chat?.id;
       
-//       if (chatId) {
-//         const userData = await getUserData(chatId);
+      if (chatId) {
+        const userData = await getUserData(chatId);
 
-//         if (userData) {
-//           ctx.session = {};
-//           ctx.session.userData = userData;
-//           ctx.session.isAddingData = "name";
-//           ctx.reply("Пожалуйста, укажите свое имя.");
-//         } else {
-//           ctx.reply("Пользователь не найден.", mainMenu);
-//         }
-//       } else {
-//         ctx.reply("Ошибка: не удалось получить ID чата.");
-//       }
-//     } catch (error) {
-//       console.error("Error handling callback query:", error);
-//       ctx.reply("Произошла ошибка при обработке callback query.");
-//     }
-//   }
-// });
+        if (userData) {
+          ctx.session = {};
+          ctx.session.userData = userData;
+          ctx.session.isAddingData = "name";
+          ctx.reply("Пожалуйста, укажите свое имя.");
+        } else {
+          ctx.reply("Пользователь не найден.", mainMenu);
+        }
+      } else {
+        ctx.reply("Ошибка: не удалось получить ID чата.");
+      }
+    } catch (error) {
+      console.error("Error handling callback query:", error);
+      ctx.reply("Произошла ошибка при обработке callback query.");
+    }
+  }
+});
 
 
 bot.launch();
