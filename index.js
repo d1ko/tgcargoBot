@@ -23,7 +23,7 @@ async function isUserExists(chatId) {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
 
   const users = res.data.values || [];
@@ -50,7 +50,7 @@ async function addToGoogleSheets(data) {
     await sheetsInstance.append({
       auth,
       spreadsheetId,
-      range: "List1",
+      range: "Лист1",
       valueInputOption: "RAW",
       resource: {
         values: [newRow],
@@ -63,7 +63,7 @@ async function addToGoogleSheets(data) {
 
 
 async function updateGoogleSheetsData(userId, updatedUserData) {
-  const range = `List1!A${userId}:F${userId}`;
+  const range = `Лист1!A${userId}:F${userId}`;
 
   const response = await sheetsInstance.get({
     auth,
@@ -96,7 +96,7 @@ async function getValues() {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
   return res.data.values || [];
 }
@@ -166,7 +166,7 @@ bot.command("update", async (ctx) => {
 });
 
 async function updateGoogleSheetsData(userId, updatedUserData) {
-  const range = `List1!A${userId}:F${userId}`; // Предполагается, что данные пользователя находятся в столбцах A-F
+  const range = `Лист1!A${userId}:F${userId}`; // Предполагается, что данные пользователя находятся в столбцах A-F
 
   await sheetsInstance.update({
     auth,
@@ -186,7 +186,7 @@ async function getUserData(chatId) {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
 
   const users = res.data.values || [];
@@ -198,7 +198,7 @@ async function getUserIndex(chatId) {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
 
   const users = res.data.values || [];
@@ -211,7 +211,7 @@ bot.command("isAdmin", async (ctx) => {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
   const values = res.data.values || [];
   const userData = values.find((row) => row[3] == chatId.toString());
@@ -337,7 +337,7 @@ bot.on("photo", async (ctx) => {
   const res = await sheetsInstance.get({
     auth,
     spreadsheetId,
-    range: "List1",
+    range: "Лист1",
   });
   const values = res.data.values || [];
   const userData = values.find((row) => row[3] == chatId.toString());
