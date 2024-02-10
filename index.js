@@ -106,7 +106,7 @@ async function getValues() {
 const mainMenu = Markup.keyboard([
   ["Личный кабинет 🏰", ],
   ["Тех поддержка 🔗",],
-  ["Адреса 📦",],
+  ["Адрес склада в Китае 📦",],
 ]).resize();
 
 
@@ -300,9 +300,9 @@ bot.on("text", async (ctx) => {
   } else if (ctx.message.text.toLowerCase() === "тех поддержка 🔗" || ctx.message.text.toLowerCase() === "help") {
     const chatId = ctx.chat.id;
     ctx.reply('Контакты', wpbtn);
-  } else if (ctx.message.text.toLowerCase() === "адреса 📦" || ctx.message.text.toLowerCase() === "addresses") {
+  } else if (ctx.message.text.toLowerCase() === "адрес склада в китае 📦" || ctx.message.text.toLowerCase() === "addresses") {
     const idc = userData[0];
-    ctx.reply(`Адрес склада в Китае\n巴合 \n16651764948浙江省金华市义乌市洪华小区\n83栋5单元1楼。巴合 ${userData[0]}`, mainMenu);
+    ctx.reply(`巴合 \n16651764948浙江省金华市义乌市洪华小区\n83栋5单元1楼。巴合 ${userData[0]}`, mainMenu);
     console.log(userData);
   } else if (ctx.message.text.toLowerCase() === "личный кабинет 🏰" || ctx.message.text.toLowerCase() === "profile") {
     if (userData) {
