@@ -232,7 +232,7 @@ const cityKeyboard = Markup.keyboard([
 ]).resize();
 
 const wpbtn = Markup.inlineKeyboard([
-  Markup.button.url(`наш What's App`, 'https://wa.me/qr/MIP42L2BFHCRL1'),
+  Markup.button.url(`наш What's App`, 'Https://wa.me/996500609060'),
   Markup.button.url(`наш Instagram`, 'https://www.instagram.com/china_cargoosh?igsh=MWhhMmIwZzJmYWM3eA=='),
 ]);
 
